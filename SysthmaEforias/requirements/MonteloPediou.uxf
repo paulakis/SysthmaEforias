@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>70</y>
+      <w>140</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Etaireia
+--
+afm:integer
+sumissiondate:Date
+epwnimia:String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>70</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>LogariasmosEtaireias
+--
+sumissiondate:Date
+epwnimia:String
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>260</y>
+      <w>310</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Dosolhpsia(DilwshEsodwn_Eksodwn)
+--
+afmdeutereuontwssimbalomenou: integer
+dateofdosolhpsia:Date
+arithmoslogariasmou:integer
+poso:double</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>310</y>
+      <w>290</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Anantistixoies
+--
+poso:double
+afmprwteuontossimbalomenou: integer
+afmdeutereuontwssimbalomenou: integer
+dateofdosolhpsia:Date
+arithmoslogariasmou:integer
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>150</y>
+      <w>180</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+exei
+m2=1
+m1=*</panel_attributes>
+    <additional_attributes>160.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>150</y>
+      <w>220</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= *
+m2=*
+&lt; mporei na emfanizei</panel_attributes>
+    <additional_attributes>10.0;160.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>100</y>
+      <w>220</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;200.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>530</y>
+      <w>180</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Apath
+--
+esoda: double
+eskoda: double
+/posoprostimou:double
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>150</y>
+      <w>190</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>lt=-
+na exei diapraksei
+m1= 1
+m2=1
+</panel_attributes>
+    <additional_attributes>10.0;380.0;110.0;10.0</additional_attributes>
+  </element>
+</diagram>
