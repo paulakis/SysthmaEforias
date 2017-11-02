@@ -5,7 +5,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>90</x>
-      <y>70</y>
+      <y>0</y>
       <w>140</w>
       <h>90</h>
     </coordinates>
@@ -21,7 +21,7 @@ epwnimia:String
     <id>UMLClass</id>
     <coordinates>
       <x>420</x>
-      <y>70</y>
+      <y>0</y>
       <w>150</w>
       <h>90</h>
     </coordinates>
@@ -39,23 +39,25 @@ epwnimia:String
     <id>UMLClass</id>
     <coordinates>
       <x>540</x>
-      <y>260</y>
+      <y>190</y>
       <w>310</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>Dosolhpsia(DilwshEsodwn_Eksodwn)
+    <panel_attributes>DilwshEsodwn_Eksodwn
 --
 afmdeutereuontwssimbalomenou: integer
-dateofdosolhpsia:Date
+dateofdhlwsh:Date
 arithmoslogariasmou:integer
-poso:double</panel_attributes>
+poso:double
+ergasia:boolean(esoda--&gt;0,eksoda--&gt;1)
+/egaira:boolean</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>310</y>
+      <y>240</y>
       <w>290</w>
       <h>110</h>
     </coordinates>
@@ -64,7 +66,7 @@ poso:double</panel_attributes>
 poso:double
 afmprwteuontossimbalomenou: integer
 afmdeutereuontwssimbalomenou: integer
-dateofdosolhpsia:Date
+dateofdhlwsh:Date
 arithmoslogariasmou:integer
 
 </panel_attributes>
@@ -74,7 +76,7 @@ arithmoslogariasmou:integer
     <id>Relation</id>
     <coordinates>
       <x>520</x>
-      <y>150</y>
+      <y>80</y>
       <w>180</w>
       <h>130</h>
     </coordinates>
@@ -88,7 +90,7 @@ m1=*</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>220</x>
-      <y>150</y>
+      <y>80</y>
       <w>220</w>
       <h>180</h>
     </coordinates>
@@ -102,7 +104,7 @@ m2=*
     <id>Relation</id>
     <coordinates>
       <x>220</x>
-      <y>100</y>
+      <y>30</y>
       <w>220</w>
       <h>30</h>
     </coordinates>
@@ -113,7 +115,7 @@ m2=*
     <id>UMLClass</id>
     <coordinates>
       <x>230</x>
-      <y>530</y>
+      <y>460</y>
       <w>180</w>
       <h>110</h>
     </coordinates>
@@ -122,6 +124,7 @@ m2=*
 esoda: double
 eskoda: double
 /posoprostimou:double
+/pithanhapath:boolean
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -129,7 +132,7 @@ eskoda: double
     <id>Relation</id>
     <coordinates>
       <x>360</x>
-      <y>150</y>
+      <y>80</y>
       <w>190</w>
       <h>400</h>
     </coordinates>
@@ -139,5 +142,19 @@ m1= 0..1
 m2=0..1
 </panel_attributes>
     <additional_attributes>10.0;380.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>280</y>
+      <w>310</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..*
+m2=0..*
+&lt; emfanizoun</panel_attributes>
+    <additional_attributes>10.0;30.0;290.0;20.0</additional_attributes>
   </element>
 </diagram>
