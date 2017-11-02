@@ -31,6 +31,7 @@ sumissiondate:Date
 epwnimia:String
 
 
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -134,8 +135,8 @@ eskoda: double
     </coordinates>
     <panel_attributes>lt=-
 na exei diapraksei
-m1= 1
-m2=1
+m1= 0..1
+m2=0..1
 </panel_attributes>
     <additional_attributes>10.0;380.0;110.0;10.0</additional_attributes>
   </element>
