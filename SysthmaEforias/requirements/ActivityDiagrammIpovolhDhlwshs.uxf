@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.1.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLTimer</id>
+    <coordinates>
+      <x>0</x>
+      <y>60</y>
+      <w>180</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>ΑΡΧΗ ΚΑΘΕ ΤΡΙΜΗΝΟΥ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>80</x>
+      <y>70</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>150.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>230</x>
+      <y>60</y>
+      <w>190</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ΕΙΣΑΓΩΓΗ 
+ΥΠΑΛΛΗΛΟΥ
+ΕΤΑΙΡΕΙΑΣ ΣΤΟ ΣΥΣΤΗΜΑ</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>80</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>490</x>
+      <y>70</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>ΕΙΣΑΓΩΓΗ 
+ΣΤΟΙΧΕΙΩΝ 
+ΕΙΣΟΔΩΝ ΕΞΟΔΩΝ</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
