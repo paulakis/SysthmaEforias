@@ -4,7 +4,7 @@
   <element>
     <id>UMLTimer</id>
     <coordinates>
-      <x>100</x>
+      <x>30</x>
       <y>50</y>
       <w>180</w>
       <h>80</h>
@@ -15,7 +15,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>190</x>
+      <x>120</x>
       <y>70</y>
       <w>200</w>
       <h>30</h>
@@ -26,7 +26,7 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>370</x>
+      <x>300</x>
       <y>40</y>
       <w>190</w>
       <h>70</h>
@@ -39,7 +39,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
+      <x>480</x>
       <y>60</y>
       <w>100</w>
       <h>30</h>
@@ -50,7 +50,7 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>630</x>
+      <x>560</x>
       <y>50</y>
       <w>140</w>
       <h>70</h>
@@ -63,7 +63,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>690</x>
+      <x>620</x>
       <y>110</y>
       <w>30</w>
       <h>80</h>
@@ -74,19 +74,19 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>640</x>
+      <x>570</x>
       <y>170</y>
       <w>120</w>
       <h>50</h>
     </coordinates>
-    <panel_attributes>ΕΚΧΩΡΗΣΗ 
+    <panel_attributes>ΚΑΤΑΧΩΡΗΣΗ 
 ΣΤΟΙΧΕΙΩΝ</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>570</x>
+      <x>500</x>
       <y>190</y>
       <w>90</w>
       <h>30</h>
@@ -97,7 +97,7 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>460</x>
+      <x>390</x>
       <y>170</y>
       <w>120</w>
       <h>50</h>
@@ -109,7 +109,7 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>300</x>
+      <x>230</x>
       <y>270</y>
       <w>140</w>
       <h>70</h>
@@ -123,7 +123,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>390</x>
+      <x>320</x>
       <y>190</y>
       <w>90</w>
       <h>30</h>
@@ -134,7 +134,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
+      <x>360</x>
       <y>290</y>
       <w>130</w>
       <h>30</h>
@@ -145,7 +145,7 @@
   <element>
     <id>UMLTimer</id>
     <coordinates>
-      <x>460</x>
+      <x>390</x>
       <y>280</y>
       <w>160</w>
       <h>80</h>
@@ -156,19 +156,19 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>210</x>
+      <x>140</x>
       <y>180</y>
       <w>170</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-ΟΧΙ</panel_attributes>
+ΕΚΠΡΟΘΕΣΜΑ</panel_attributes>
     <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>200</x>
+      <x>130</x>
       <y>190</y>
       <w>20</w>
       <h>20</h>
@@ -179,24 +179,35 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>370</x>
+      <x>300</x>
       <y>210</y>
-      <w>50</w>
+      <w>130</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-ΝΑΙ</panel_attributes>
+ΕΜΠΡΟΘΕΣΜΑ</panel_attributes>
     <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>360</x>
+      <x>290</x>
       <y>180</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>200</y>
+      <w>120</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0;100.0;100.0</additional_attributes>
   </element>
 </diagram>
