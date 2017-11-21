@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class SecondTester {
+public class Logariasmos_Testers {
 
 	@Test
 	public void test() {
