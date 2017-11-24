@@ -114,7 +114,14 @@ public class Dhlwsh {
 	}
 	
 	
-	
+	public double sinoloposou(Set<Parastatiko> p){
+		for (<Parastatiko> item :p){
+			if(item.iseidossinallaghs){
+			 double poso += item.poso;
+			}
+		}
+		return poso;
+	}
 	
 	
 
